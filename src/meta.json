@@ -1,0 +1,50 @@
+{
+  "name": "movies-app",
+  "plugins": [
+    {
+      "name": "Styled Components",
+      "description": "Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS, styled-components allows you to write actual CSS code to style your components.",
+      "url": "https://styled-components.com/docs"
+    },
+    {
+      "name": "Styled System",
+      "description": "Styled System is a collection of utility functions that add style props to your React components and allows you to control styles based on a global theme object with typographic scales, colors, and layout properties.",
+      "url": "https://styled-system.com/getting-started"
+    },
+    {
+      "name": "Axios",
+      "description": "Promise based HTTP client for the browser and node.js.",
+      "url": "https://github.com/axios/axios"
+    },
+    {
+      "name": "React Query",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React.",
+      "url": "https://react-query.tanstack.com/overview"
+    },
+    {
+      "name": "react-use",
+      "description": "A Collection of useful React hooks.",
+      "url": "https://github.com/streamich/react-use"
+    },
+    {
+      "name": "next-i18next",
+      "description": "react-i18next is a powerful internationalization framework for React / React Native which is based on i18next. Check out the history of i18next and when react-i18next was introduced.",
+      "url": "https://react.i18next.com"
+    },
+    {
+      "name": "eslint",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "jest",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "no",
+      "description": "",
+      "url": ""
+    }
+  ]
+}
