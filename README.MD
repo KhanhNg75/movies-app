@@ -1,101 +1,55 @@
-# movies-app
+To execute project: yarn dev
 
+# Project - _Movies_
 
-This project was generated with [superplate](https://github.com/pankod/superplate).
+**Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
 
-## Getting Started
+Time spent: **HH** hours spent in total
 
-superplate is a Next.js all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.
+## User Stories
 
-## Available Scripts
+The following **required** functionality is completed:
 
-### Running the development server.
+- [Done] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- [ ] User can view movie details by tapping on a cell.
+- [ ] User sees loading state while waiting for the API.
+- [ ] User sees an error message when there is a network error.
+- [ ] User can pull to refresh the movie list.
+- [ ] Simple responsive.
 
-```bash
-    yarn dev
-```
+The following **optional** features are implemented:
 
-### Building for production.
+- [ ] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [ ] Implement segmented control to switch between list view and grid view.
+- [ ] Add a search bar.
+- [ ] All images fade in.
+- [ ] Implement lazy load image.
+- [ ] Customize the highlight and selection effect of the cell.
+- [ ] Improve UX loading by skeleton loading.
+- [ ] Enhance responsive.
 
-```bash
-    yarn build
-```
+The following **additional** features are implemented:
 
-### Running the production server.
+- [ ] List anything else that you can get done to improve the app functionality!
 
-```bash
-    yarn start
-```
+## Video Walkthrough
 
-## Learn More
+Here's a walkthrough of implemented user stories:
 
-To learn more about **superplate**, please check out the [Documentation](https://github.com/pankod/superplate).
-
-
-### **Styled Components**
-
-Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS, styled-components allows you to write actual CSS code to style your components.
-
-[Go To Documentation](https://styled-components.com/docs)
-
-
-### **Styled System**
-
-Styled System is a collection of utility functions that add style props to your React components and allows you to control styles based on a global theme object with typographic scales, colors, and layout properties.
-
-[Go To Documentation](https://styled-system.com/getting-started)
-
-
-### **Axios**
-
-Promise based HTTP client for the browser and node.js.
-
-[Go To Documentation](https://github.com/axios/axios)
-
-
-### **React Query**
-
-Hooks for fetching, caching and updating asynchronous data in React.
-
-[Go To Documentation](https://react-query.tanstack.com/overview)
-
-
-### **react-use**
-
-A Collection of useful React hooks.
-
-[Go To Documentation](https://github.com/streamich/react-use)
-
-
-### **next-i18next**
-
-react-i18next is a powerful internationalization framework for React / React Native which is based on i18next. Check out the history of i18next and when react-i18next was introduced.
-
-[Go To Documentation](https://react.i18next.com)
-
-
-### **eslint**
-
-
-
-[Go To Documentation]()
-
-
-### **jest**
-
-
-
-[Go To Documentation]()
-
-
-### **no**
-
-
-
-[Go To Documentation]()
-
-
+> Please record screen to a GIF file and attach link here
 
 ## License
 
-MIT
+    Copyright [2016] [your-name]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

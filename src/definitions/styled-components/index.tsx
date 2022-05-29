@@ -6,13 +6,13 @@ import { light } from "./light";
 
 export const ThemeContext = React.createContext({
   theme: "light",
-  toggle: () => {},
+  // toggle: () => {},
 });
 
 export const useTheme = () => {
-  const { theme, toggle } = React.useContext(ThemeContext);
+  const { theme } = React.useContext(ThemeContext);
 
-  return { theme: theme === "light" ? light : dark, toggle, themeName: theme };
+  return { theme: theme === "light" ? light : dark, themeName: theme };
 };
 
 export const StyledThemeProvider: React.FC = ({ children }) => {
@@ -24,9 +24,9 @@ export const StyledThemeProvider: React.FC = ({ children }) => {
   const values = React.useMemo(
     () => ({
       theme,
-      toggle,
+      // toggle,
     }),
-    [toggle, theme]
+    [theme]
   );
 
   return (

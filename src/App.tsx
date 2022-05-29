@@ -2,16 +2,28 @@ import { StyledThemeProvider } from "definitions/styled-components";
 import { QueryClient, QueryClientProvider } from "react-query";
 import "./i18n";
 
-import Home from "pages";
+import { BrowserRouter, Route } from "react-router-dom";
+import { Header } from "components/header/index";
+import GlobalStyle from "styles/globalStyles";
+
+import Routes from "config/Routes";
 
 function App(): JSX.Element {
   const queryClient = new QueryClient();
   return (
     <StyledThemeProvider>
       <QueryClientProvider client={queryClient}>
-        <div className="App">
-          <Home />
-        </div>
+        <GlobalStyle />
+        <BrowserRouter>
+          <Route
+            render={(props) => (
+              <>
+                <Header {...props} />
+                <Routes />
+              </>
+            )}
+          />
+        </BrowserRouter>
       </QueryClientProvider>
     </StyledThemeProvider>
   );
