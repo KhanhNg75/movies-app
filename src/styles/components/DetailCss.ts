@@ -74,9 +74,11 @@ const MovieInfor = styled.div`
 const MovieTitle = styled.h1`
   font-size: 4rem;
   line-height: 1;
+  margin-bottom: 20px;
 `;
 
 const MovieGenres = styled.div`
+  margin-bottom: 20px;
   & > * ~ * {
     margin-left: 0.5rem;
   }
