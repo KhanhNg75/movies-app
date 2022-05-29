@@ -6,7 +6,8 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { Header } from "components/header/index";
 import GlobalStyle from "styles/globalStyles";
 
-import Routes from "config/Routes";
+import { Footer } from "components/footer";
+import { Routes } from "config/Routes";
 
 function App(): JSX.Element {
   const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ function App(): JSX.Element {
               <>
                 <Header {...props} />
                 <Routes />
+                <Footer />
               </>
             )}
           />

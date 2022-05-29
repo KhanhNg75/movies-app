@@ -39,8 +39,8 @@ const HeroPoster = styled.div`
 
   img {
     width: 400px;
-    border-radius: $border-radius;
-    box-shadow: $box-shadow;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 
     transform: scale(0);
     transition: transform 0.7s ease;
@@ -104,7 +104,11 @@ const HeroItems = styled.div`
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: linear-gradient(to top, var(--body-bg), rgba($black, 0));
+    background-image: linear-gradient(
+      to top,
+      var(--body-bg),
+      rgba(var(--black), 0)
+    );
   }
 
   &.active ${HeroPoster} {

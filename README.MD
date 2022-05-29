@@ -11,22 +11,22 @@ Time spent: **HH** hours spent in total
 The following **required** functionality is completed:
 
 - [Done] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
-- [ ] User can view movie details by tapping on a cell.
-- [ ] User sees loading state while waiting for the API.
+- [Done] User can view movie details by tapping on a cell.
+- [Done] User sees loading state while waiting for the API.
 - [ ] User sees an error message when there is a network error.
 - [ ] User can pull to refresh the movie list.
-- [ ] Simple responsive.
+- [Done] Simple responsive.
 
 The following **optional** features are implemented:
 
-- [ ] Add a tab bar for **Now Playing** and **Top Rated** movies.
-- [ ] Implement segmented control to switch between list view and grid view.
-- [ ] Add a search bar.
+- [Done] Add a tab bar for **Now Playing** and **Top Rated** movies.
+- [Done] Implement segmented control to switch between list view and grid view.
+- [Done] Add a search bar.
 - [ ] All images fade in.
 - [ ] Implement lazy load image.
 - [ ] Customize the highlight and selection effect of the cell.
 - [ ] Improve UX loading by skeleton loading.
-- [ ] Enhance responsive.
+- [Done] Enhance responsive.
 
 The following **additional** features are implemented:
 

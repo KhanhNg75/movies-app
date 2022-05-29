@@ -1,9 +1,5 @@
-import React from "react";
-import Button from "@mui/material/Button";
-
-import { HeroSlide as H } from "styles";
-import { Wrapper as W } from "styles";
-import { Btn as B } from "styles";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import { HeroSlide as H, Wrapper as W, Btn as B } from "styles";
 
 import { useHistory } from "react-router";
 
@@ -16,9 +12,6 @@ export const HeroSlideItem = (props) => {
     item.backdrop_path ? item.backdrop_path : item.poster_path
   );
 
-  const setModalActive = () => {
-    console.log("aaa");
-  };
   return (
     <H.HeroItems
       className={`${props.className}`}
@@ -33,11 +26,11 @@ export const HeroSlideItem = (props) => {
               <B.Btn onClick={() => hisrory.push("/movie/" + item.id)}>
                 Watch now
               </B.Btn>
-              <B.BtnOutline onClick={setModalActive}>Trailer</B.BtnOutline>
             </H.HeroBtn>
           </H.HeroInfor>
           <H.HeroPoster>
-            <img src={apiConfig.w500Image(item.poster_path)} alt="" />
+            <LazyLoadImage alt="" src={apiConfig.w500Image(item.poster_path)} />
+            {/* <img src={apiConfig.w500Image(item.poster_path)} alt="" /> */}
           </H.HeroPoster>
         </H.HeroContent>
       </W.Container>

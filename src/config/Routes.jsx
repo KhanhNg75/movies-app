@@ -2,11 +2,9 @@ import Catalog from "pages/Catalog";
 import Detail from "pages/Detail";
 import Home from "pages/Home";
 
-import React from "react";
-
 import { Route, Switch } from "react-router-dom";
 
-function Routes() {
+export const Routes = () => {
   return (
     <Switch>
       <Route path="/:category/search/:keyword" component={Catalog} />
@@ -15,6 +13,4 @@ function Routes() {
       <Route path="/" exact component={Home} />
     </Switch>
   );
-}
-
-export default Routes;
+};

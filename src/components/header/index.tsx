@@ -12,12 +12,12 @@ const headerNav = [
     path: "/",
   },
   {
-    display: "Movies",
+    display: "Now Playing",
     path: "/movie",
   },
   {
-    display: "TV Series",
-    path: "/tv",
+    display: "Top Rated",
+    path: "/top",
   },
 ];
 

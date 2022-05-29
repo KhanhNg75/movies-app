@@ -58,9 +58,9 @@ const Nav = styled.ul`
     left: 0;
     height: 5rem;
     width: 100%;
-    background-color: $body-bg;
+    background-color: var(--body-bg);
     padding: 0 2rem;
-    box-shadow: $box-shadow;
+    box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
     justify-content: space-between;

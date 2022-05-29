@@ -35,4 +35,10 @@ const BtnOutline = styled.button`
   }
 `;
 
-export { Btn, BtnOutline };
+const BtnSmall = styled.div`
+  border-width: 2px;
+  padding: 0.25rem 1.5rem;
+  font-size: 1rem;
+`;
+
+export { Btn, BtnOutline, BtnSmall };
