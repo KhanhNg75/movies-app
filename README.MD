@@ -4,7 +4,7 @@ To execute project: yarn dev
 
 **Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
 
-Time spent: **HH** hours spent in total
+Time spent: 19 hours spent in total
 
 ## User Stories
 
@@ -36,11 +36,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-> Please record screen to a GIF file and attach link here
+> Please record screen to a GIF file and attach link here: https://drive.google.com/file/d/1-mBc-i3ShGITNfO5-1yX9MKSomqrgFPT/view?usp=sharing
 
 ## License
 
-    Copyright [2016] [your-name]
+    Copyright [2016] Khanh Nguyen
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
